@@ -251,35 +251,7 @@ async function fetchData() {
         const data = await response.json();
         tarotCards = data.cards; // Guardamos para uso posterior
         console.log(data);
-        /*   data.cards.forEach((apiCard, index) => {
-  
-              container.innerHTML += "";
-              container.innerHTML += `
-                      
-                          <div class="card-header">
-                              <h3>${apiCard.name}</h3>
-                              <div class="image-container"id="img-${index}"></div>
-                          </div>
-                          <div class="content">
-                              <p>${apiCard.meaning_up}</p>
-                              <p>${apiCard.desc}</p>
-                          </div>
-                          
-                      </div>
-                       
-                      `;
-  
-              const containerImages = document.getElementById(`img-${index}`);
-  
-              tarotCardsImages.forEach(cardImage => {
-                  if (apiCard.name.toLowerCase() === cardImage.name.toLowerCase()) {
-                      containerImages.innerHTML += `
-                          <img src="${cardImage.image}" alt="${cardImage.name}">
-                      `;
-                  }
-              });
-   
-          });*/
+       
     } catch (error) {
         console.log(error);
     }
