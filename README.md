@@ -20,17 +20,6 @@ La aplicación obtiene cartas desde la API pública [Tarot API](https://tarotapi
 - Mostrar imágenes personalizadas para cada carta (ubicadas en `/tarotdeck`).
 - Interfaz responsiva para dispositivos móviles.
 
-# Estructura de archivos
-
-tarot-app/
-│
-├── index.html
-├── style.css
-├── script.js
-├── tarotdeck/
-│ ├── thefool.jpeg
-│ ├── themagician.jpeg
-│ └── ...otras imágenes
 
 ## Cómo usar
 
